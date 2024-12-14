@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise #1-FlexBox</title>
+    <style>
+        html, body{
+            height: 100%;
+
+        }
+        .border{
+            display: flex;
+            flex-direction: row;
+box-sizing: border-box;
+border:7px solid orange;
+width:100%;
+
+
+        }
+        .number{
+            box-sizing: border-box;
+            border: none;
+            width: 13%;
+            height: 600px;
+            /* align-content: stretch; */
+            color: white;
+            font-size: 100px;
+            /* text-align: center; */
+            align-content: center;
+            text-align: center;
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="border">
+        <div class="number" style="background-color: green;">1</div>
+    <div class="number" style="background-color: yellow;">2</div>
+    <div class="number" style="background-color: purple;">3</div>
+    <div class="number" style="background-color: gray;">4</div>
+    <div class="number" style=" background-color: blue;">5</div>
+    <div class="number" style="background-color: orange;">6</div>
+    <div class="number" style="background-color: pink;">7</div>
+    <div class="number" style="background-color: red;">8</div>
+    <div class="number" style="background-color: brown;">9</div>
+    </div>
+    
+
+</body>
+</html>
